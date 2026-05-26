@@ -3,12 +3,14 @@ whiskers:
   version: ^2.5.1
   matrix:
     - flavor
-  filename: "themes/catppuccin-{{flavor.identifier}}.cottheme"
+    - accent
+  filename: "themes/catppuccin-{{flavor.identifier}}-{{accent}}.cottheme"
 ---
+{% set accent_color = flavor.colors[accent] -%}
 {% set line_highlight = text | mod(opacity=0.1) -%}
-{% set selection = overlay2 | mod(opacity=0.20) -%}
+{% set selection = accent_color | mod(opacity=0.40) -%}
 {
-  "name" : "Catppuccin {{flavor.name}}",
+  "name" : "Catppuccin {{flavor.name}} {{accent_color.name}}",
   "metadata" : {
     "author" : "Catppuccin",
     "description" : "Soothing pastel theme for CotEditor",
@@ -26,18 +28,18 @@ whiskers:
     "usesSystemSetting" : false
   },
   "cursor" : {
-    "color" : "#{{rosewater.hex}}",
+    "color" : "#{{accent_color.hex}}",
     "usesSystemSetting" : false
   },
   "lineHighlight" : {
     "color" : "#{{line_highlight.hex}}"
   },
   "insertionPoint" : {
-    "color" : "#{{rosewater.hex}}",
+    "color" : "#{{accent_color.hex}}",
     "usesSystemSetting" : false
   },
   "highlight" : {
-    "color" : "#{{teal.hex}}",
+    "color" : "#{{accent_color.hex}}",
     "usesSystemSetting" : false
   },
   "attributes" : {
@@ -68,7 +70,7 @@ whiskers:
     "color" : "#{{yellow.hex}}"
   },
   "values" : {
-    "color" : "#{{red.hex}}"
+    "color" : "#{{peach.hex}}"
   },
   "variables" : {
     "color" : "#{{maroon.hex}}"

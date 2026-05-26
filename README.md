@@ -36,10 +36,12 @@
 
 ## Usage
 
-1. Download the flavor of your choice from the [themes](./themes) directory.
+1. Download the flavor and accent combination of your choice from the [themes](./themes) directory.
 2. Open the app and go to **Settings** > **Appearance**.
 3. Click the **More options button** (⋯) and select **Import...**.
 4. Select the file that you downloaded.
+
+The non-accented theme files use Rosewater as the default accent.
 
 ## 🙋 FAQ
 

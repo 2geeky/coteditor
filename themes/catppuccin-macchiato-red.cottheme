@@ -1,0 +1,67 @@
+{
+  "name" : "Catppuccin Macchiato Red",
+  "metadata" : {
+    "author" : "Catppuccin",
+    "description" : "Soothing pastel theme for CotEditor",
+    "distributionURL" : "https:\/\/github.com\/catppuccin\/coteditor",
+    "license" : "MIT"
+  },
+  "background" : {
+    "color" : "#24273a"
+  },
+  "text" : {
+    "color" : "#cad3f5"
+  },
+  "selection" : {
+    "color" : "#ed879666",
+    "usesSystemSetting" : false
+  },
+  "cursor" : {
+    "color" : "#ed8796",
+    "usesSystemSetting" : false
+  },
+  "lineHighlight" : {
+    "color" : "#cad3f51a"
+  },
+  "insertionPoint" : {
+    "color" : "#ed8796",
+    "usesSystemSetting" : false
+  },
+  "highlight" : {
+    "color" : "#ed8796",
+    "usesSystemSetting" : false
+  },
+  "attributes" : {
+    "color" : "#eed49f"
+  },
+  "characters" : {
+    "color" : "#f5bde6"
+  },
+  "commands" : {
+    "color" : "#8aadf4"
+  },
+  "comments" : {
+    "color" : "#939ab7"
+  },
+  "invisibles" : {
+    "color" : "#6e738d"
+  },
+  "keywords" : {
+    "color" : "#c6a0f6"
+  },
+  "numbers" : {
+    "color" : "#f5a97f"
+  },
+  "strings" : {
+    "color" : "#a6da95"
+  },
+  "types" : {
+    "color" : "#eed49f"
+  },
+  "values" : {
+    "color" : "#f5a97f"
+  },
+  "variables" : {
+    "color" : "#ee99a0"
+  }
+}

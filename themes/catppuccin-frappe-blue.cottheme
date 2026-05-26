@@ -1,0 +1,67 @@
+{
+  "name" : "Catppuccin Frappé Blue",
+  "metadata" : {
+    "author" : "Catppuccin",
+    "description" : "Soothing pastel theme for CotEditor",
+    "distributionURL" : "https:\/\/github.com\/catppuccin\/coteditor",
+    "license" : "MIT"
+  },
+  "background" : {
+    "color" : "#303446"
+  },
+  "text" : {
+    "color" : "#c6d0f5"
+  },
+  "selection" : {
+    "color" : "#8caaee66",
+    "usesSystemSetting" : false
+  },
+  "cursor" : {
+    "color" : "#8caaee",
+    "usesSystemSetting" : false
+  },
+  "lineHighlight" : {
+    "color" : "#c6d0f51a"
+  },
+  "insertionPoint" : {
+    "color" : "#8caaee",
+    "usesSystemSetting" : false
+  },
+  "highlight" : {
+    "color" : "#8caaee",
+    "usesSystemSetting" : false
+  },
+  "attributes" : {
+    "color" : "#e5c890"
+  },
+  "characters" : {
+    "color" : "#f4b8e4"
+  },
+  "commands" : {
+    "color" : "#8caaee"
+  },
+  "comments" : {
+    "color" : "#949cbb"
+  },
+  "invisibles" : {
+    "color" : "#737994"
+  },
+  "keywords" : {
+    "color" : "#ca9ee6"
+  },
+  "numbers" : {
+    "color" : "#ef9f76"
+  },
+  "strings" : {
+    "color" : "#a6d189"
+  },
+  "types" : {
+    "color" : "#e5c890"
+  },
+  "values" : {
+    "color" : "#ef9f76"
+  },
+  "variables" : {
+    "color" : "#ea999c"
+  }
+}

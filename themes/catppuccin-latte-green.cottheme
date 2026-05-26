@@ -1,0 +1,67 @@
+{
+  "name" : "Catppuccin Latte Green",
+  "metadata" : {
+    "author" : "Catppuccin",
+    "description" : "Soothing pastel theme for CotEditor",
+    "distributionURL" : "https:\/\/github.com\/catppuccin\/coteditor",
+    "license" : "MIT"
+  },
+  "background" : {
+    "color" : "#eff1f5"
+  },
+  "text" : {
+    "color" : "#4c4f69"
+  },
+  "selection" : {
+    "color" : "#40a02b66",
+    "usesSystemSetting" : false
+  },
+  "cursor" : {
+    "color" : "#40a02b",
+    "usesSystemSetting" : false
+  },
+  "lineHighlight" : {
+    "color" : "#4c4f691a"
+  },
+  "insertionPoint" : {
+    "color" : "#40a02b",
+    "usesSystemSetting" : false
+  },
+  "highlight" : {
+    "color" : "#40a02b",
+    "usesSystemSetting" : false
+  },
+  "attributes" : {
+    "color" : "#df8e1d"
+  },
+  "characters" : {
+    "color" : "#ea76cb"
+  },
+  "commands" : {
+    "color" : "#1e66f5"
+  },
+  "comments" : {
+    "color" : "#7c7f93"
+  },
+  "invisibles" : {
+    "color" : "#9ca0b0"
+  },
+  "keywords" : {
+    "color" : "#8839ef"
+  },
+  "numbers" : {
+    "color" : "#fe640b"
+  },
+  "strings" : {
+    "color" : "#40a02b"
+  },
+  "types" : {
+    "color" : "#df8e1d"
+  },
+  "values" : {
+    "color" : "#fe640b"
+  },
+  "variables" : {
+    "color" : "#e64553"
+  }
+}
