@@ -68,7 +68,7 @@ whiskers:
     "color" : "#{{yellow.hex}}"
   },
   "values" : {
-    "color" : "#{{red.hex}}"
+    "color" : "#{{peach.hex}}"
   },
   "variables" : {
     "color" : "#{{maroon.hex}}"
